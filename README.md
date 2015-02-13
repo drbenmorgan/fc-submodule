@@ -46,3 +46,16 @@ $ git add FNALCore/cpp0x
 $ git commit
 ```
 
+# Working with the cpp0x submodule
+If you have push permissions to the upstream repo for a submodule, you
+can make local commits and push them to the upstream. The best way to do
+this is:
+
+- create a feature branch in the submodule
+- make the needed commits
+- push these to the parent repo of the submodule
+- add the changed submodule in the superproject, make a superproject
+  commit
+
+
+
