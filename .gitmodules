@@ -1,0 +1,3 @@
+[submodule "FNALCore/cpp0x"]
+	path = FNALCore/cpp0x
+	url = https://github.com/drbenmorgan/fnal-cpp0x-flow.git
