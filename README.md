@@ -110,7 +110,8 @@ $ git flow feature publish
 
 One could at this point also finish the feature and go through the gitflow
 release process in the submodule, before finally checking out the new
-release tag in the submodule. In either case, we end up with the submodule
+release tag in the submodule. **NOTE**: Appears that gitflow doesn't push
+tags automatically for you!! In either case, we end up with the submodule
 at a new commit which is also published in the upstream repo.
 
 Just as before, to update the superproject to use the submodule at this
